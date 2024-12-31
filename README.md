@@ -1,11 +1,8 @@
 # Slot Machine Game on FPGA
 
-This project implements a **slot machine game** on an Altera FPGA using **SystemVerilog**, showcasing core digital design principles like **clock dividers**, **shift registers**, and **finite state machines (FSMs)**. The system features interactive gameplay, responsive state transitions, and a visual output using a **seven-segment display**.
+This project implements a **slot machine game** on an Altera FPGA using **SystemVerilog**, utilizing **clock dividers**, **shift registers**, and **finite state machines (FSMs)**. The system features interactive gameplay, responsive state transitions, and a visual output using a **seven-segment display**.
 
-## Project Overview
-
-### Objective
-To design and verify a functional slot machine game capable of displaying random numbers, detecting wins, and providing visual/auditory feedback based on the game's outcome.
+The goal is to design and verify a functional slot machine game capable of displaying random numbers, detecting wins, and providing visual/auditory feedback based on the game's outcome.
 
 ## Features
 - **Random Number Generation**:
