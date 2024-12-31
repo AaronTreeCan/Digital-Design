@@ -53,4 +53,4 @@ Before implementing on the FPGA, each core module had to be incrementally tested
 - **Reliable State Transitions**: FSM ensures seamless state changes.
 - **High Responsiveness**: Low-latency input processing and visual updates.
 
-![Slot Machine Demo](https://via.placeholder.com/800x400.png?text=Slot+Machine+Demo)
+![Slot Machine Demo](https://via.placeholder.com/800x400.png?text=Slot+Machine+Display)
