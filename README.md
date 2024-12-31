@@ -1,7 +1,5 @@
 # Slot Machine Game on FPGA
 
-![Slot Machine Display Example](https://via.placeholder.com/800x400.png?text=Slot+Machine+Display)
-
 This project implements a **slot machine game** on an Altera FPGA using **SystemVerilog**, showcasing core digital design principles like **clock dividers**, **shift registers**, and **finite state machines (FSMs)**. The system features interactive gameplay, responsive state transitions, and a visual output using a **seven-segment display**.
 
 ## Project Overview
@@ -40,7 +38,7 @@ To design and verify a functional slot machine game capable of displaying random
 ### Verification
 Before implementing on the FPGA, each core module had to be incrementally tested using QuestaSim to ensure full functionality. To accomplish this, I created testbenches for each core module, simulating every possible scenario a module might encounter. After verifying all modules were functional, I created a top module to connect everything and ran a final simulation to test the slot machine's functionality as a whole (slotMachine_tb). 
 
-![QuestaSim](assets/Questa)
+![QuestaSim](assets/QuestaSim.png)
 
 ### Tools Used
 - Quartus
@@ -52,5 +50,3 @@ Before implementing on the FPGA, each core module had to be incrementally tested
 - **Interactive Gameplay**: Real-time slot results displayed on the FPGA.
 - **Reliable State Transitions**: FSM ensures seamless state changes.
 - **High Responsiveness**: Low-latency input processing and visual updates.
-
-![Slot Machine Demo](https://via.placeholder.com/800x400.png?text=Slot+Machine+Display)
